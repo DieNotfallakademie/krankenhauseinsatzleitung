@@ -1,0 +1,6 @@
+# Sicherheitslücke gefunden? Bitte melden Sie sie uns verantwortungsvoll.
+# Security vulnerability found? Please report it to us responsibly.
+Contact: mailto:kontakt@notfallakademie.org
+Expires: 2027-10-12T00:00:00.000Z
+Preferred-Languages: de, en
+Canonical: https://krankenhauseinsatzleitung.com/.well-known/security.txt

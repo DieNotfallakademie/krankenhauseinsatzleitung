@@ -3,27 +3,75 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KRISENSTAB – Das Tool für die Stabsarbeit im Krankenhaus</title>
-<meta name="description" content="KRISENSTAB ist das digitale Stabsarbeitssystem für Krankenhäuser: Dashboard, Checklisten mit automatischer Aufgabenerstellung aus Ihrem KAEP, Einsatztagebuch, Lagemonitor und mehr – modular aufgebaut. Wir suchen Pilotpartner.">
+<title>KRISENSTAB – Stabsarbeit im Krankenhaus digital führen</title>
+<meta name="description" content="KRISENSTAB ist die Software für die Krankenhauseinsatzleitung: Lage, Aufgaben, Checklisten und Einsatztagebuch für den Krisenstab. Pilotpartner gesucht.">
 <link rel="canonical" href="https://krankenhauseinsatzleitung.com/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#122331">
 <meta property="og:type" content="website">
-<meta property="og:title" content="KRISENSTAB – Das Tool für die Stabsarbeit im Krankenhaus">
-<meta property="og:description" content="Digitales Stabsarbeitssystem für Krankenhäuser – modular, KAEP-basiert, auch offline. Wir suchen Pilotpartner für 2026.">
+<meta property="og:site_name" content="KRISENSTAB">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="KRISENSTAB – Stabsarbeit im Krankenhaus digital führen">
+<meta property="og:description" content="KRISENSTAB ist die Software für die Krankenhauseinsatzleitung: Lage, Aufgaben, Checklisten und Einsatztagebuch für den Krisenstab. Pilotpartner gesucht.">
 <meta property="og:url" content="https://krankenhauseinsatzleitung.com/">
-<meta property="og:image" content="https://krankenhauseinsatzleitung.com/assets/img/lageraum-krisenstab.webp">
+<meta property="og:image" content="https://krankenhauseinsatzleitung.com/assets/img/og-krisenstab.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="KRISENSTAB: Übersicht der Einsatzleitung mit Lage, Aufgaben und Meldungen">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KRISENSTAB – Stabsarbeit im Krankenhaus digital führen">
+<meta name="twitter:description" content="KRISENSTAB ist die Software für die Krankenhauseinsatzleitung: Lage, Aufgaben, Checklisten und Einsatztagebuch für den Krisenstab. Pilotpartner gesucht.">
+<meta name="twitter:image" content="https://krankenhauseinsatzleitung.com/assets/img/og-krisenstab.jpg">
+<meta name="twitter:image:alt" content="KRISENSTAB: Übersicht der Einsatzleitung mit Lage, Aufgaben und Meldungen">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='11' fill='%23122331'/><g fill='none' stroke='%23e7f2f4' stroke-width='2.6' stroke-linecap='round'><path d='M20 5V11.5'/><path d='M20 28.5V35'/><path d='M5 20H11.5'/><path d='M28.5 20H35'/><circle cx='20' cy='20' r='8.5'/></g><circle cx='20' cy='20' r='4' fill='%232a97ae'/></svg>">
-<link rel="stylesheet" href="/assets/css/style.css?v=4">
+<link rel="stylesheet" href="/assets/css/style.css?v=5">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "KRISENSTAB – Stabsarbeit im Krankenhaus",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Web",
-  "description": "Digitales Stabsarbeitssystem für Krankenhäuser: Dashboard, Checklisten mit automatischer Aufgabenerstellung aus dem KAEP, Einsatztagebuch, Lagemonitor, Kapazitätsmanagement und ZONK-Board für den realen Krisenfall.",
-  "url": "https://krankenhauseinsatzleitung.com/",
-  "provider": { "@type": "Organization", "name": "Die Notfallakademie" }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://krankenhauseinsatzleitung.com/#organisation",
+      "name": "Die Notfallakademie UG (haftungsbeschränkt)",
+      "url": "https://krankenhauseinsatzleitung.com/",
+      "email": "kontakt@notfallakademie.org",
+      "telephone": "+49 30 2867 0692",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Mühlenstraße 8a",
+        "postalCode": "14167",
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://krankenhauseinsatzleitung.com/#website",
+      "url": "https://krankenhauseinsatzleitung.com/",
+      "name": "KRISENSTAB – Krankenhauseinsatzleitung",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://krankenhauseinsatzleitung.com/#organisation"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://krankenhauseinsatzleitung.com/#software",
+      "name": "KRISENSTAB",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Software für die Krankenhauseinsatzleitung (Krisenstab): Lageübersicht, Aufgaben, Checklisten, Einsatztagebuch und Stabssitzungen, ergänzt durch elf Zusatzmodule. Zurzeit im Pilotbetrieb.",
+      "url": "https://krankenhauseinsatzleitung.com/",
+      "inLanguage": "de-DE",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Krankenhäuser, Krankenhauseinsatzleitung, Krisenstab"
+      },
+      "provider": {
+        "@id": "https://krankenhauseinsatzleitung.com/#organisation"
+      }
+    }
+  ]
 }
 </script>
 </head>
@@ -33,7 +81,7 @@
   <div class="wrap">
     <span class="promo-badge">Pilotphase 2026</span>
     <span>KRISENSTAB sucht Krankenhäuser als Pilotpartner.</span>
-    <a href="/pilotpartner.html">Jetzt Pilotpartner werden →</a>
+    <a href="/pilotpartner">Jetzt Pilotpartner werden →</a>
   </div>
 </div>
 
@@ -44,12 +92,13 @@
       <span class="brand-name">KRISENSTAB<small>Stabsarbeit im Krankenhaus</small></span>
     </a>
     <nav class="main-nav">
-      <a href="/funktionen.html">Module</a>
-      <a href="/pilotpartner.html">Pilotpartner</a>
-      <a href="/vergleich.html">Vergleich</a>
-      <a href="/leistungen.html">Leistungen</a>
-      <a href="/kontakt.html">Kontakt</a>
-      <a href="/kontakt.html" class="btn btn-primary">Demo anfragen</a>
+      <a href="/vision">Vision</a>
+      <a href="/funktionen">Module</a>
+      <a href="/pilotpartner">Pilotpartner</a>
+      <a href="/vergleich">Vergleich</a>
+      <a href="/leistungen">Leistungen</a>
+      <a href="/kontakt">Kontakt</a>
+      <a href="/kontakt" class="btn btn-primary">Demo anfragen</a>
     </nav>
     <button class="nav-toggle" aria-label="Menü öffnen">☰</button>
   </div>
@@ -62,8 +111,8 @@
       <h1>Das Tool für die <span class="accent">Stabsarbeit</span> im Krankenhaus</h1>
       <p class="lead">KRISENSTAB bringt Ihren Krisenstab von Whiteboard und Papierordner in ein System: Lage, Aufgaben, Dokumentation und Kommunikation an einem Ort. Modular aufgebaut, aus Ihrem KAEP abgeleitet und auch ohne Internet betriebsbereit.</p>
       <div class="hero-actions">
-        <a href="/pilotpartner.html" class="btn btn-accent btn-lg">Pilotpartner werden</a>
-        <a href="/funktionen.html" class="btn btn-outline btn-lg">Module ansehen</a>
+        <a href="/pilotpartner" class="btn btn-accent btn-lg">Pilotpartner werden</a>
+        <a href="/funktionen" class="btn btn-outline btn-lg">Module ansehen</a>
       </div>
       <div class="hero-trust">
         <div><span><strong>Aus Ihrem KAEP abgeleitet</strong> <span class="zusatz">— Szenarien, Rollen und Checklisten individuell</span></span></div>
@@ -278,7 +327,7 @@
       </div>
     </div>
 
-    <p class="text-center" style="margin-top:40px;"><a href="/funktionen.html" class="btn btn-outline">Alle Module im Detail ansehen →</a></p>
+    <p class="text-center" style="margin-top:40px;"><a href="/funktionen" class="btn btn-outline">Alle Module im Detail ansehen →</a></p>
   </div>
 </section>
 
@@ -363,8 +412,8 @@
           <li>Keine Dauerbindung – Sie entscheiden nach der Pilotphase neu</li>
         </ul>
         <div class="hero-actions" style="margin-top:30px;margin-bottom:0;">
-          <a href="/pilotpartner.html" class="btn btn-accent btn-lg">Pilotpartner werden</a>
-          <a href="/kontakt.html" class="btn btn-outline btn-lg">Erst einmal Demo ansehen</a>
+          <a href="/pilotpartner" class="btn btn-accent btn-lg">Pilotpartner werden</a>
+          <a href="/kontakt" class="btn btn-outline btn-lg">Erst einmal Demo ansehen</a>
         </div>
       </div>
       <div class="hero-shot auf" data-verzoegerung="1">
@@ -422,7 +471,7 @@
         </tbody>
       </table>
     </div>
-    <p class="text-center" style="margin-top:24px;"><a href="/vergleich.html" class="btn btn-outline">Vollständigen Vergleich ansehen →</a></p>
+    <p class="text-center" style="margin-top:24px;"><a href="/vergleich" class="btn btn-outline">Vollständigen Vergleich ansehen →</a></p>
   </div>
 </section>
 
@@ -459,8 +508,8 @@
       <h2>Bringen Sie Ihren Krisenstab ins System</h2>
       <p>Werden Sie Pilotpartner oder lassen Sie sich KRISENSTAB zuerst unverbindlich an einem Beispiel-Einsatz zeigen. Wir melden uns in der Regel innerhalb eines Werktags.</p>
       <div class="cta-actions">
-        <a href="/pilotpartner.html" class="btn btn-primary btn-lg">Pilotpartner werden</a>
-        <a href="/kontakt.html" class="btn btn-outline btn-lg">Demo anfragen</a>
+        <a href="/pilotpartner" class="btn btn-primary btn-lg">Pilotpartner werden</a>
+        <a href="/kontakt" class="btn btn-outline btn-lg">Demo anfragen</a>
       </div>
     </div>
   </div>
@@ -479,16 +528,17 @@
       <div>
         <h4>Produkt</h4>
         <ul>
-          <li><a href="/funktionen.html">Module</a></li>
-          <li><a href="/vergleich.html">Vergleich</a></li>
-          <li><a href="/leistungen.html">Leistungen &amp; Pilot</a></li>
-          <li><a href="/pilotpartner.html">Pilotpartner werden</a></li>
+          <li><a href="/funktionen">Module</a></li>
+          <li><a href="/vergleich">Vergleich</a></li>
+          <li><a href="/leistungen">Leistungen &amp; Pilot</a></li>
+          <li><a href="/pilotpartner">Pilotpartner werden</a></li>
         </ul>
       </div>
       <div>
         <h4>Unternehmen</h4>
         <ul>
-          <li><a href="/kontakt.html">Kontakt</a></li>
+          <li><a href="/vision">Vision</a></li>
+          <li><a href="/kontakt">Kontakt</a></li>
           <li><a href="https://notfallakademie.org" target="_blank" rel="noopener">Die Notfallakademie</a></li>
         </ul>
       </div>
@@ -502,8 +552,8 @@
     <div class="footer-bottom">
       <span>© 2026 Die Notfallakademie · KRISENSTAB</span>
       <nav>
-        <a href="/impressum.html">Impressum</a>
-        <a href="/datenschutz.html">Datenschutz</a>
+        <a href="/impressum">Impressum</a>
+        <a href="/datenschutz">Datenschutz</a>
       </nav>
     </div>
   </div>

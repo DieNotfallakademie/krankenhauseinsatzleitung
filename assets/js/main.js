@@ -2,13 +2,20 @@ document.addEventListener("DOMContentLoaded", function () {
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.querySelector(".main-nav");
   if (toggle && nav) {
+    toggle.setAttribute("aria-expanded", "false");
+    function setze(offen) {
+      nav.classList.toggle("open", offen);
+      toggle.setAttribute("aria-expanded", offen ? "true" : "false");
+      toggle.setAttribute("aria-label", offen ? "Menü schließen" : "Menü öffnen");
+    }
     toggle.addEventListener("click", function () {
-      nav.classList.toggle("open");
+      setze(!nav.classList.contains("open"));
     });
     nav.querySelectorAll("a").forEach(function (a) {
-      a.addEventListener("click", function () {
-        nav.classList.remove("open");
-      });
+      a.addEventListener("click", function () { setze(false); });
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && nav.classList.contains("open")) { setze(false); toggle.focus(); }
     });
   }
 });

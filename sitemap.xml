@@ -2,42 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://krankenhauseinsatzleitung.com/</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-31</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://krankenhauseinsatzleitung.com/funktionen.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://krankenhauseinsatzleitung.com/funktionen</loc>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://krankenhauseinsatzleitung.com/pilotpartner.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://krankenhauseinsatzleitung.com/pilotpartner</loc>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://krankenhauseinsatzleitung.com/vergleich.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://krankenhauseinsatzleitung.com/vision</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://krankenhauseinsatzleitung.com/leistungen.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://krankenhauseinsatzleitung.com/vergleich</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://krankenhauseinsatzleitung.com/kontakt.html</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://krankenhauseinsatzleitung.com/leistungen</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://krankenhauseinsatzleitung.com/kontakt</loc>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krankenhauseinsatzleitung.com/impressum.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>https://krankenhauseinsatzleitung.com/datenschutz.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.1</priority>
   </url>
 </urlset>

@@ -1,0 +1,13 @@
+# KRISENSTAB
+
+> KRISENSTAB ist eine Software für die Krankenhauseinsatzleitung (Krisenstab im Krankenhaus). Sie unterstützt die Stabsarbeit mit Lageübersicht, Aufgaben, Checklisten, Einsatztagebuch und Stabssitzungen; elf Zusatzmodule erweitern das Grundmodul. Die Software befindet sich im Pilotbetrieb; Pilotkrankenhäuser werden gesucht. Anbieter: Die Notfallakademie UG (haftungsbeschränkt), Berlin.
+
+## Seiten
+
+- [Startseite](https://krankenhauseinsatzleitung.com/): Überblick über KRISENSTAB
+- [Vision](https://krankenhauseinsatzleitung.com/vision): Warum es KRISENSTAB gibt und warum eine Krankenhauseinsatzleitung ein eigenes Programm braucht
+- [Module](https://krankenhauseinsatzleitung.com/funktionen): Grundmodul und Zusatzmodule
+- [Vergleich](https://krankenhauseinsatzleitung.com/vergleich): Papier, generische Lage-Software und KRISENSTAB im Vergleich
+- [Leistungen](https://krankenhauseinsatzleitung.com/leistungen): Software mit Schulung oder Rundum-Sorglos-Paket
+- [Pilotpartner](https://krankenhauseinsatzleitung.com/pilotpartner): Konditionen und Ablauf für Pilotkrankenhäuser
+- [Kontakt](https://krankenhauseinsatzleitung.com/kontakt): Demo anfragen, Pilotpartner werden

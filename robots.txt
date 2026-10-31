@@ -1,3 +1,4 @@
+# Alle Crawler (Suchmaschinen und KI-Dienste) dürfen die öffentlichen Seiten lesen.
 User-agent: *
 Allow: /
 
